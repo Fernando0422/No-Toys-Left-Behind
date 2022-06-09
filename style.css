@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@700;800&family=Secular+One&display=swap');
+
+*{
+background-color: #fb5000;
+font-family:'Montserrat', sans-serif;
+}
+
+p{
+  padding: 10px;
+  padding-top: 2px;
+color: #75DAE6;
+  padding-bottom: 10px;
+    font-size: 20px;
+}
+
+h1{
+  padding-top:60px;
+  color: #dcb36c;
+  font-size: 50px;
+  text-shadow:
+		-2px -2px  #000,
+		2px -2px  #000,
+		-2px 2px  #000,
+		2px 2px  #000;
+  padding-bottom: 30px;
+  width: auto;
+}
+h4{  
+ position: relative;
+bottom: 70px;
+  color: #dcb36c;
+ text-align: center;
+  padding: 22px;
+  padding-bottom: 10px;
+  font-size: 30px;
+  width: auto;
+  
+}
+
+.text{
+  padding-top: 50px;
+  font-size: 30px;
+  color: white;
+  position: relative;
+bottom: 50px;
+width: auto;
+  
+}
+
+a {
+  position: relative;
+  font-size: 30px;
+  color: white;
+  text-decoration: none;
+  width: auto;
+}
+/* mouse over link */
+a:hover {
+  color: #a8dff4;
+}
+
+body {
+  text-align: center;
+  background-color: #fb5000;
+width: auto;
+}
+
+button{
+padding: 10px 44px;
+  border: 3px solid #dcb36c; /* light orranngeee */
+border-radius: 15px;
+width: auto;
+}
