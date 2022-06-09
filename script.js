@@ -1,86 +1,93 @@
 $(document).ready(function(){
-// Children are continually dying at the hands of our corrupt government and politicians who continually cash in their checks from the NRA.
-
-// var children = ["kids", "The youth", "Minors"]
-// var continually = ["often", "repeatedly", "frequently"]
-// var corrupt = ["evil", "unethical", "dishonest", "immoral", "reprobate"]
-// var government = ["country", "nation"]
-
-
-// var sentence1 = `${children[Math.floor(Math.random()*children.length)]} are ${continually[Math.floor(Math.random()*continually.length)]} dying at the hands of our ${corrupt[Math.floor(Math.random()*corrupt.length)]} ${government[Math.floor(Math.random()*government.length)]} and politicians who continually cash in their checks from the NRA.`
-
+   
+var children = ["Kids", "The youth", "Minors"]
+var continually = ["often", "repeatedly", "frequently"]
+var corrupt = ["evil", "unethical", "dishonest", "immoral", "reprobate"]
+var government = ["country", "nation"]
+ 
+ 
+var sentence1 = `${children[Math.floor(Math.random()*children.length)]} are ${continually[Math.floor(Math.random()*continually.length)]} dying at the hands of our ${corrupt[Math.floor(Math.random()*corrupt.length)]} ${government[Math.floor(Math.random()*government.length)]} and politicians who continually cash in their checks from the NRA`
 
 
-//The “protection” that you think you are providing is damaging the lives of youths throughout the state of Florida, and you will be the reason why. 
+// They don't even bat an eye when a major school shooting occurs and push it off with “thoughts and prayers''.
+
+var major = ["catastrophic", "massive"]
+var occurs = ["happens", "ensues", "transpires", "appears", "emerges", "arises"]
 
 
-var occurs = ["happens", "ensues", "transpires", "surfaces", "appears", "emerges", "arises"]
+var sentence2 = `They don't even bat an eye when a ${major[Math.floor(Math.random()*major.length)]} school shooting ${occurs[Math.floor(Math.random()*occurs.length)]} and push it off with “thoughts and prayers"`
 
-var sentence2 = `The “protection” that you ${thinkSyn[Math.floor(Math.random()*thinkSyn.length)]} you are ${providingSyn[Math.floor(Math.random()*providingSyn.length)]} is ${damagingSyn[Math.floor(Math.random()*damagingSyn.length)]} to the lives of youths ${throughout[Math.floor(Math.random()*throughout.length)]} the state of Florida, and you will be the ${reasonSyn[Math.floor(Math.random()*reasonSyn.length)]} why`
+// Well, guess what, that does not do shit. We are tired of seeing schools go through the worst and seeing politicians continue to do nothing. It's time to change this no matter what way possible. 
 
-//If you want to protect these children, then do not sign this bill into legislation. 
 
-var wantSyn = ["need", "wish", "demand", "assume"]
-var protectSyn = ["care for", "defend", "conserve", "assure"]
-var signSyn = ["enact", "confirm", "endorse", "ink", "acknowledge", "authorize", "inscribe"]
-var legislationSyn = ["law"]
-
-var sentence3 = `If you ${wantSyn[Math.floor(Math.random()*wantSyn.length)]} to ${protectSyn[Math.floor(Math.random()*protectSyn.length)]} these children, then do not ${signSyn[Math.floor(Math.random()*signSyn.length)]} this bill into ${legislationSyn[Math.floor(Math.random()*legislationSyn.length)]}`
+var sentence3 = `Well, guess what, that does not do shit. We are tired of seeing schools go through the worst and seeing politicians continue to do nothing. It's time to change this no matter what way possible`
 
   
-//You are setting a precedent regarding the treatment of LGBTQ+ youths, condemning not only your state’s children, but the children of the United States to a world of discrimination and hate. 
+// While they get to go on their lavish trips and shopping sprees, we as the youth of America hide under our desks and hope we aren’t the next target. 
 
-var settingSyn = ["putting", "placing", "putting down", "laying", "settling", "positioning"]
-var precedentSyn = ["model", "example"]
-var regardingSyn = ["in regards to", "with regard to", "about"]
-var condemningSyn = ["damaging", "denouncing", "destroying"]
-var UsSyn = ["US", "USA", "nation"]
-var discriminationSyn = ["bigotry", "favortism", "inequity", "injustice", "intolerance", "prejudice", "unfairness"]
-var hateSyn = ["loathe", "detest", "hatred", "resentment", "aversion", "hostility", "distaste"]
+var lavish = ["luxury", "luxuorious", "grand", "extravagent", "elegant"]
+var youth = ["kids", "children"]
 
-var sentence4 = `You are ${settingSyn[Math.floor(Math.random()*settingSyn.length)]} a ${precedentSyn[Math.floor(Math.random()*precedentSyn.length)]} ${regardingSyn[Math.floor(Math.random()*regardingSyn.length)]} the treatment of LGBTQ+ youths, ${condemningSyn[Math.floor(Math.random()*condemningSyn.length)]} not only your state’s children, but the children of the ${UsSyn[Math.floor(Math.random()*UsSyn.length)]} to a world of ${discriminationSyn[Math.floor(Math.random()*discriminationSyn.length)]} and ${hateSyn[Math.floor(Math.random()*hateSyn.length)]}`
+var sentence4 = `While they get to go on their ${lavish[Math.floor(Math.random()*lavish.length)]} trips and shopping sprees, we as the ${youth[Math.floor(Math.random()*youth.length)]} of America hide under our desks and hope we aren’t the next target`
 
 
-//You claim to push your state into a path of the future, but this treatment toward the LGBTQ+ community sets it back decades to a point of discrimination and blatant hate. 
-var claimSyn = ["aledge", "proclaim", "assert", "believe", "call for", "challenge", "declare"]
-var pushSyn = ["propel", "send", "drive", "force", "jolt"]
-var pathSyn = ["pathway", "track", "footpath"]
-var towardSyn = ["with regard to", "respecting", "concerning, to"]
-var decadesSyn = ["years"]
-var discriminationSyn = ["bigotry", "favortism", "inequity", "injustice", "intolerance", "prejudice", "unfairness"]
-var blatantSyn = ["glaring", "obvious", "undisguised", "unconcealed", "open", "transparent", "unmistakable", "shameless"]
-var hateSyn = ["loathe", "detest", "hatred", "resentment", "aversion", "hostility", "distaste"]
-
-var sentence5 = `You ${claimSyn[Math.floor(Math.random()*claimSyn.length)]} to ${pushSyn[Math.floor(Math.random()*pushSyn.length)]} your state into a ${pathSyn[Math.floor(Math.random()*pathSyn.length)]} of the future, but this treatment ${towardSyn[Math.floor(Math.random()*towardSyn.length)]} the LGBTQ+ community sets it back ${decadesSyn[Math.floor(Math.random()*decadesSyn.length)]} to a point of ${discriminationSyn[Math.floor(Math.random()*discriminationSyn.length)]} and ${blatantSyn[Math.floor(Math.random()*blatantSyn.length)]} hate`
 
 
-//If signed into legislation, your warpath will be known world wide and set the reputation of Florida into a spiral and complete tyranny. 
+// We demand that you take charge and sign legislation for stronger gun control. 
+var demand = ["request", "solicit", "summon", "require", "call for", "challenge", "order"]
+var charge = ["control", "account"]
+var sign = ["inscribe"]
+var stronger = ["stricter", "more intensive", "more"]
 
-var signedSyn = ["written", "inscribed", "registered", "enlisted"]
-var legislationSyn = ["law", "ratification"]
-var warpathSyn = ["aggression", "animosity", "antagonism", "antipathy", "bitterness", "enmity", "hatred", "estrangement", "silence", "malice"]
-var knownSyn = ["acknowledged", "obvious", "recognized", "noted"]
-var worldwideSyn = ["globally", "everywhere"]
-var completeSyn = ["entire", "exhaustive", "full", "outright", "thorough"]
-var tryannySyn = ["cruelty", "oppression"]
-
-var sentence6 = `If ${signedSyn[Math.floor(Math.random()*signedSyn.length)]} into ${legislationSyn[Math.floor(Math.random()*legislationSyn.length)]}, your ${warpathSyn[Math.floor(Math.random()*warpathSyn.length)]} will be ${knownSyn[Math.floor(Math.random()*knownSyn.length)]} ${worldwideSyn[Math.floor(Math.random()*worldwideSyn.length)]} and set the reputation of Florida into a spiral and ${completeSyn[Math.floor(Math.random()*completeSyn.length)]} ${tryannySyn[Math.floor(Math.random()*tryannySyn.length)]}`
+var sentence5 = `We ${demand[Math.floor(Math.random()*demand.length)]} that you take ${charge[Math.floor(Math.random()*charge.length)]} and ${sign[Math.floor(Math.random()*sign.length)]} legislation for ${stronger[Math.floor(Math.random()*stronger.length)]} gun control`
 
 
-//Do not sign this bill into law and prove that Florida is on the right track of history
-var signSyn = ["enact", "confirm", "endorse", "ink", "acknowledge", "authorize", "inscribe"]
-var proveSyn = ["demonstrate"]
-var rightSyn = ["correct", "positive"]
-var trackSyn = ["side", "verge"]
+// The lack of not taking charge signifies that you are no better than those who use their checks from the NRA.
+
+var lack = ["absence"]
+var signifies = ["means", "represents", "symbolizes", "conveys", "indicates"]
+var sentence6 = `The ${lack[Math.floor(Math.random()*lack.length)]} of not taking charge ${signifies[Math.floor(Math.random()*signifies.length)]} that you are no better than those who use their checks from the NRA`
 
 
-var sentence7 = `Do not ${signSyn[Math.floor(Math.random()*signSyn.length)]} this bill into law and prove that Florida is on the ${rightSyn[Math.floor(Math.random()*rightSyn.length)]} ${trackSyn[Math.floor(Math.random()*trackSyn.length)]} of history`
+// Many of you state that you side with us, but in reality never keep true to your promises and only support gun control as a mechanism to garner more votes. 
+var state = ["say", "comment", "note", "remark", "declare", "express", "word"]
+var promises = ["commitments", "pledges", "oaths", "arruances", "guarantees"]
+var mechanism = ["means", "tool", "agency", "intrument"]
+
+
+var sentence7 = `Many of you ${state[Math.floor(Math.random()*state.length)]} that you side with us, but in reality never keep true to your ${promises[Math.floor(Math.random()*promises.length)]} and only support gun control as a ${mechanism[Math.floor(Math.random()*mechanism.length)]} to garner more votes`
+
+
+// We know who you are. Do better or leave. Keep in mind that the midterm elections are coming up so if you want that special seat this is the time to prove yourself. 
+
+var sentence8 = `We know who you are. Do better or leave. Keep in mind that the midterm elections are coming up so if you want that special seat this is the time to prove yourself`
+
+
+// You are elected by us, we expect you to follow through with what you say. 
+
+var sentence9 = `You are elected by us, we expect you to follow through with what you say`
+
+
+// If you truly care about the future of this nation and its children who will inherit it, then you know what must be done. 
+
+var truly = ["really", "actually"]
+var future = ["fate", "destiny", "tomorrow"]
+var nation = ["country"]
+var children = ["Kids", "The youth", "Minors"]
+
+var sentence10 = `If you ${truly[Math.floor(Math.random()*truly.length)]} care about the ${future[Math.floor(Math.random()*future.length)]} of this ${nation[Math.floor(Math.random()*nation.length)]} and its ${children[Math.floor(Math.random()*children.length)]} who will inherit it, then you know what must be done`
+
+
+
 
 
   /// stuff for the emails hehe ///
-  var fullLetter2 = `${sentence1}. ${sentence2}. ${sentence3}. ${sentence4}. ${sentence5}. ${sentence6}. ${sentence7}.`
+  var fullLetter2 = `${sentence1}. ${sentence2}. ${sentence3}. ${sentence4}. ${sentence5}. ${sentence6}. ${sentence7}. ${sentence8}. ${sentence9}. ${sentence10}.`
     var commonAppEmails = [
-      "info@harderforcongress.com","Aaron@FordforNevada.com", "abigail@democraticags.org","andrew.romanoff@andrewromanoff.com",
+      "info@harderforcongress.com",
+      "Aaron@FordforNevada.com",
+      "abigail@democraticags.org",
+      "andrew.romanoff@andrewromanoff.com",
       "andrew@andrewgounardes.com",
       "andrew@andrewlearned.com",
       "andrew@andrewyang.com",
@@ -174,8 +181,7 @@ var sentence7 = `Do not ${signSyn[Math.floor(Math.random()*signSyn.length)]} thi
       "info@brindisiforcongress.com",
       "info@brynneforcongress.com",
       "info@cadem.org",
-      "info@calfornc.com",
-      "info@carolyn4congress.com",
+      "info@calfornc.com", "info@carolyn4congress.com",
       "info@carolynmaloney.com",
       "info@castenforcongress.com",
       "info@catherinecortezmasto.com",
@@ -430,12 +436,11 @@ var sentence7 = `Do not ${signSyn[Math.floor(Math.random()*signSyn.length)]} thi
       "wendell_ford@ford.senate.gov",
       "wyden@teleport.com",
       "xavier@xavierbecerra.com",
-      ]
+     ]
     var caEmails = commonAppEmails.join(",")
  
    var emailLetter2 = encodeURIComponent(fullLetter2.replace("No Toys Left Behind"))
-   var emailLink2=`mailto:?bcc=${caEmails}&subject=No Toys Left Behind&body=${emailLetter2}`
+   var emailLink2=`mailto:?bcc=${caEmails}&subject=No Toys Left Behind &body=${emailLetter2}`
   $('#commonAppEmails').attr("href", emailLink2) 
 
 })
-
